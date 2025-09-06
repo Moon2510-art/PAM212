@@ -16,9 +16,15 @@ class intentoapp {
 
     showPlaceholder(buttonId) {
         const placeholder = this.buttons[buttonId].getAttribute("placeholder");
+        const items = placeholder
+            .split("\n")
+            .map(line => line.trim())
+            .filter(line => line.length > 0)
+            .map(line => `<li>${line}</li>`)
+            .join("");
         this.contentArea.innerHTML = `
             <h2>${this.buttons[buttonId].innerText}</h2>
-            <p>${placeholder}</p>
+            <ul>${items}</ul>
         `;
     }
 }

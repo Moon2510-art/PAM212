@@ -5,6 +5,13 @@ body {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 28px;
+}
+
 #app {
     display: flex;
     flex-direction: column;
@@ -23,7 +30,7 @@ body {
 }
 
 .Opciones button:hover {
-    background-color: bisque;
+    background-color:darkcyan;
 }
 
 #content {
@@ -31,15 +38,24 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    text-align: center;
+    width: 600px;
+    text-align: left; 
 }
 
 h2 {
     color: #333;
 }
 
-/* 📱 Estilos para móvil */
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+
 @media (max-width: 600px) {
     #content {
         width: 90%;
@@ -49,3 +65,4 @@ h2 {
         font-size: 18px;
     }
 }
+
