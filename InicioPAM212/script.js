@@ -16,6 +16,7 @@ class intentoapp {
 
     showPlaceholder(buttonId) {
         const placeholder = this.buttons[buttonId].getAttribute("placeholder");
+
         const items = placeholder
             .split("\n")
             .map(line => line.trim())
