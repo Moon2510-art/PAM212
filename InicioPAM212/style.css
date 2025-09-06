@@ -12,7 +12,7 @@ body {
     padding: 20px;
 }
 
-.buttons {
+.Opciones button {
     padding: 10px 20px;
     margin: 10px;
     background-color: darkslategray;
@@ -22,7 +22,7 @@ body {
     font-size: 16px;
 }
 
-button:hover {
+.Opciones button:hover {
     background-color: bisque;
 }
 
@@ -35,6 +35,17 @@ button:hover {
     text-align: center;
 }
 
-h2{
+h2 {
     color: #333;
+}
+
+/* 📱 Estilos para móvil */
+@media (max-width: 600px) {
+    #content {
+        width: 90%;
+    }
+    .Opciones button {
+        width: 90%;
+        font-size: 18px;
+    }
 }
