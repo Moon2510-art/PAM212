@@ -1,14 +1,11 @@
-let count = 50;
-
-while(count > 0) {
-    console.log(count);
-    count = count - 1;
+function greeting(name){
+    console.log("Hi!" + name);
 }
 
-let names = ["ryan", "joe", "john", "mario"];
-console.log(names[3]);
-console.log(names.length);
+greeting("Markus");
 
-for (let i = 0; i < names.length; i++) {
-    console.log(names[i]);
+function add(n1, n2) {
+    console.log(n1 + n2);
 }
+
+add(3, 2);
