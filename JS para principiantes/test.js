@@ -1,11 +1,22 @@
-document.write("<h1>hello world<h1>");
-console.log({"username": "ryan", "score": 70.4})
+let numberOne = 60;
+let numberTwo = 100;
 
-var nameuser = "John";
-let lastname = "Carter";
+let result = numberOne + numberTwo;
+let comparison = numberOne < numberTwo;
 
-nameuser = 'Pepe';
-const pi = "3.1416";
-const id = "User1"
+console.log(comparison);
+console.log(result);
 
-console.log(lastname)
+let name = "John";
+let lastName = "Carter";
+
+let fullName = name + " " + lastName;
+
+console.log(fullName);
+
+let passwordDB = "root";
+let input = "notroot"
+
+let output = input == passwordDB;
+
+console.log(output);
