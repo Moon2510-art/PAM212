@@ -1,4 +1,4 @@
 
-const greet = (name, age) => "Hola mi nombre es " + name + " y Tengo" + age + " años.";
+const greet = (name, age) => "Hola mi nombre es " + name + " y tengo " + age + " años.";
 
-console.log(greet(Isay, 37));
+console.log(greet("Isay", 37));
