@@ -1,3 +1,5 @@
-function SubstractNums(num1, num2) {
+function SubstractNums(num1, num2){
     return num1 - num2;
 }
+
+export {SubstractNums};

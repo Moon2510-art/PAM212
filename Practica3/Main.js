@@ -1,4 +1,4 @@
-import { SubstractNums } from "Utils.js";
+import { SubstractNums } from "./Utils.js";
 
 console.log(SubstractNums(5, 2));
 console.log(SubstractNums(3, 1));
