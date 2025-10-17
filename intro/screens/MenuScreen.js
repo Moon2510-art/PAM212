@@ -2,6 +2,7 @@ import { Text, StyleSheet, View, Button } from 'react-native'
 import React, { useState } from 'react';
 import ContadorScreen from './ContadorScreen';
 import BotonesScreen from './Botones/BotonesScreen';
+import BotonesScreen2 from './Botones/BotonesScreen2';
 import TextInputScreen from './TextInputScreen';
 import ImageBGScreen from './ImageBGScreen';
 import ScrollViewScreen from './ScrollViewScreen';
@@ -18,6 +19,8 @@ export default function MenuScreen() {
             return <ContadorScreen/>;
         case 'botones': 
             return <BotonesScreen/>;
+        case 'botones2': 
+            return <BotonesScreen2/>;
         case 'textInput':
             return <TextInputScreen/>;
         case 'imageBackground':
@@ -40,6 +43,7 @@ export default function MenuScreen() {
                 <View style={styles.contenedorBotones}>
         <Button color='purple' onPress={()=>setScreen('contador')} title = 'Pract:Contador'/>
         <Button color='purple' onPress={()=>setScreen('botones')} title = 'Pract:Botones' />
+        <Button color='purple' onPress={()=>setScreen('botones2')} title = 'Pract:Botones2' />
         <Button color='purple' onPress={()=>setScreen('textInput')} title = 'Pract:TextInput' />
         <Button color='purple' onPress={()=>setScreen('imageBackground')} title = 'Pract:ImageBackground' />
         <Button color='purple' onPress={()=>setScreen('scrollView')} title = 'Pract:ScrollView' />
