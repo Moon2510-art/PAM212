@@ -1,7 +1,7 @@
 import { Text, StyleSheet, View, Button } from 'react-native'
 import React, { useState } from 'react';
 import ContadorScreen from './ContadorScreen';
-import BotonesScreen from './BotonesScreen';
+import BotonesScreen from './Botones/BotonesScreen';
 import TextInputScreen from './TextInputScreen';
 import ImageBGScreen from './ImageBGScreen';
 import ScrollViewScreen from './ScrollViewScreen';
@@ -9,7 +9,6 @@ import ActivityIndicatorScreen from './ActivityIndicatorScreen';
 import FlatListScreen from './FlatListScreen';
 import ModalScreen from './ModalScreen';
 import BottomSheetScreen from './BottomSheetScreen';
-
 
 export default function MenuScreen() {
     const [screen,setScreen] = useState('menu');
