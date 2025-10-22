@@ -5,7 +5,7 @@ export default function ModalScreen()
 
     return (
       <View>
-        <Text>Modalcreen Proximamente...</Text>
+        <Text>Modalscreen Proximamente...</Text>
       </View>
     )
   }

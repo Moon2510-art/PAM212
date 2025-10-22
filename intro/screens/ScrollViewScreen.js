@@ -1,11 +1,11 @@
 import { Text, StyleSheet, View } from 'react-native'
 
-export default function ScrollViewScreen() 
+export default function ModalScreen() 
 {
 
     return (
       <View>
-        <Text>ScrollViewScreen Proximamente...</Text>
+        <Text>ScrollView Proximamente...</Text>
       </View>
     )
   }

@@ -50,7 +50,8 @@ const enviarDatos = () => {
         numberOfLines={4}
       />
 
-      <Button title="Enviar" onPress={enviarDatos} />
+
+      <Button color='purple' title="Enviar" onPress={enviarDatos} />
 
       <Text style={styles.mensaje}>{mensaje}</Text>
     </View>
