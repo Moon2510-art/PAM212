@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#26323b',
+    justifyContent: 'center',
   },
   header: {
     height: 120,

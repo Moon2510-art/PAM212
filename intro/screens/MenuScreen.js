@@ -78,12 +78,12 @@ const styles = StyleSheet.create({
         gap:20,
     },  
 
-    texto: {
-   color: '#7e00b4ff',
-   fontSize: 30,
-   fontFamily: 'Times New Roman',
-   fontStyle: 'italic',
-   textDecorationLine: 'underline',
+   texto: {
+        color: '#7e00b4ff',
+        fontSize: 30,
+        fontFamily: 'Times New Roman',
+        fontStyle: 'italic',
+        textDecorationLine: 'underline',
   },
 
 });

@@ -24,7 +24,7 @@ const SimpleHeader = () => {
 
 const SimpleScrollView = () => {
   return (
-    <View>
+    <View style= {styles.container}>
       <SimpleHeader/>
       <ScrollView 
       showVerticalScrollIndicator={false}
