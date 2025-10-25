@@ -6,6 +6,7 @@ import BotonesScreen2 from './Botones/BotonesScreen2';
 import TextInputScreen from './TextInputScreen';
 import ImageBGScreen from './ImageBGScreen';
 import ScrollViewScreen from './ScrollViewScreen';
+import ScrollViewScreenH from './ScrollViewScreenH';
 import ActivityIndicatorScreen from './ActivityIndicatorScreen';
 import FlatListScreen from './FlatListScreen';
 import ModalScreen from './ModalScreen';
@@ -28,6 +29,8 @@ export default function MenuScreen() {
             return <ImageBGScreen/>;
         case 'scrollView':
             return <ScrollViewScreen/>;
+        case 'scrollViewH':
+            return <ScrollViewScreenH/>;
         case 'activityIndicator':
             return <ActivityIndicatorScreen/>;
         case 'flatList':
@@ -50,6 +53,7 @@ export default function MenuScreen() {
         <Button color='purple' onPress={()=>setScreen('textInput')} title = 'Pract:TextInput' />
         <Button color='purple' onPress={()=>setScreen('imageBackground')} title = 'Pract:ImageBackground' />
         <Button color='purple' onPress={()=>setScreen('scrollView')} title = 'Pract:ScrollView' />
+        <Button color='purple' onPress={()=>setScreen('scrollViewH')} title = 'Pract:ScrollViewH' />
         <Button color='purple' onPress={()=>setScreen('activityIndicator')} title = 'Pract:ActivityIndicator' />
         <Button color='purple' onPress={()=>setScreen('flatList')} title = 'Pract:FlatList' />
         <Button color='purple' onPress={()=>setScreen('modal')} title = 'Pract:Modal' />

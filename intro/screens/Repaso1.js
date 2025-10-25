@@ -35,9 +35,9 @@ export default function SplashScreenPro() {
     }
     else if (!emailRegex.test(email) ){
       Alert.alert('Error', 'Por favor ingrese un correo electronico VALIDO');
-      alert('Error: Por favor ingrese su correo electronico');
+      alert('Error: Por favor ingrese un correo electronico VALIDO');
     }
-    else if (!isSwitchOn){x
+    else if (!isSwitchOn){
       Alert.alert('Error', 'Por favor acepte los terminos y condiciones');
       alert('Error: Por favor acepte los terminos y condiciones');
     } else {
